@@ -1,32 +1,30 @@
 # Project Synopsis — Submission Document
-### HCLTech Career Shaper Programme | III Year Industry Project | 2025-26
+### HCLTech Career Shaper Programme
 
 ---
 
 | Field | Details (Learner to complete) |
 | :--- | :--- |
 | **Project Title** | Electronic Health Record System with Real-Time Interoperability & Patient Portal (EHRS01) |
-| **Project No.** | 69 |
 | **Domain** | Healthcare and Pharma / Full Stack Web Development |
-| **Difficulty** | Intermediate |
+| **GitHub Repository** | [https://github.com/bushra04-khan/EHRS-HealthRecord](https://github.com/bushra04-khan/EHRS-HealthRecord) |
 | **Duration** | 4 Weeks (20 Sprints Agile Scope) |
 | **Format** | Individual Project |
-| **Learner Name** | Bushra Khan |
-| **Roll Number** | 2300320150021 |
-| **College / Campus** | ABES Engineering College |
-| **Mentor Name** | Dr. Anamika Goel |
-| **Submission Date** | 24 Oct 2026 |
-| **GitHub Repository** | [https://github.com/bushra04-khan/EHRS-HealthRecord](https://github.com/bushra04-khan/EHRS-HealthRecord) |
+| **Learner Name** | **Bushra Khan** |
+| **Roll Number** | **2300320150021** |
+| **College / Campus** | **ABES Engineering College** |
+| **Mentor Name** | **Dr. Anamika Goel** |
+| **Submission Date** | **24 Oct 2026** |
 
 ---
 
 ### 1. Problem Statement
-In modern healthcare delivery across hospital networks, patient health data remains fragmented across disconnected paper charts and isolated legacy software systems, leading to delayed diagnoses, preventable adverse drug events, and poor patient engagement. During outpatient consultations and emergency triage, clinicians frequently lack immediate visibility into past medical histories, active medications, and severe drug allergies, resulting in diagnostic rework and life-threatening contraindication risks. This project solves these critical challenges by engineering a unified, web-based Electronic Health Record System (EHRS01) equipped with standardized Computerized Provider Order Entry (CPOE), structured SOAP clinical documentation, automated real-time allergy safety checks, HL7/FHIR interoperability bridges, and a self-service Patient Portal.
+In modern healthcare delivery across hospital networks, patient medical data remains fragmented across disconnected paper charts and isolated software silos, which severely impairs care coordination between physicians, nurses, and clinical specialists. During outpatient consultations, emergency triage, and prescription dispensing, clinicians lack immediate, unified visibility into vital signs, past surgical history, active medication regimens, and documented drug allergies, leading to repeated tests, diagnostic delays, and life-threatening adverse drug reactions. This project solves these challenges by developing a centralized, web-based Electronic Health Record System (EHRS01) equipped with Computerized Provider Order Entry (CPOE), structured SOAP documentation, dynamic BMI monitoring, automated real-time allergy cross-checks, bidirectional HL7/FHIR healthcare interoperability bridges, and a self-service Patient Portal.
 
 ---
 
 ### 2. Proposed Solution & Approach
-The proposed solution is an enterprise-grade, full-stack Electronic Health Record System developed using modern React 19, Tailwind CSS, and a Node.js/Express service architecture adhering to global healthcare interoperability standards. The platform implements six core clinical epics: Master Patient Index (MPI) demographics management, structured 4-quadrant SOAP encounter logging with automated dynamic BMI calculations, Computerized Provider Order Entry (CPOE) for laboratory and imaging diagnostics with an integrated PACS DICOM viewer simulation, electronic prescribing (e-Rx) with real-time Clinical Decision Support (CDS) allergy cross-checking, and bidirectional HL7 v2.5.1 messaging alongside HL7 FHIR Release 4 REST endpoints. Furthermore, a dedicated Patient Portal enables self-scheduling of appointments, secure encrypted provider messaging, and instant personal health record access, thereby streamlining clinical throughput and safeguarding patient care.
+The proposed solution is an enterprise-grade, full-stack Electronic Health Record System engineered using React 19, Tailwind CSS, and a Node.js/Express service architecture adhering to global medical informatics standards. The platform implements six core clinical epics: Master Patient Index (MPI) demographics management, structured 4-quadrant SOAP encounter logging with automatic BMI computation, Computerized Provider Order Entry (CPOE) for laboratory and imaging orders with a simulated PACS DICOM viewer, electronic prescribing (e-Rx) with real-time Clinical Decision Support (CDS) allergy contraindication detection, and bidirectional HL7 v2.5.1 messaging alongside HL7 FHIR Release 4 REST endpoints. In addition, an integrated Patient Portal empowers patients to self-schedule appointments, message care teams over encrypted channels, and access verified personal health summaries, significantly enhancing clinical throughput and patient safety.
 
 ---
 
@@ -39,7 +37,7 @@ flowchart TD
         UI1["Clinician Dashboard & Patient 360 View"]
         UI2["SOAP Encounter & Dynamic Vitals Editor"]
         UI3["CPOE Diagnostic Orders & PACS Viewer"]
-        UI4["e-Prescribing (e-Rx) with CDS Alert Modal"]
+        UI4["e-Prescribing (e-Rx) with CDS Alerts"]
         UI5["HL7 & FHIR Interoperability Explorer"]
         UI6["Patient Portal (Appointments & Messaging)"]
     end
@@ -82,7 +80,7 @@ flowchart LR
     Clinician(("Clinician / Doctor")) -->|1. Demographics, SOAP Notes, Orders, e-Rx| EHRSystem["EHRS01 System Core Engine"]
     EHRSystem -->|2. Allergy Warnings, Lab Findings, PACS Scans| Clinician
     
-    Patient(("Patient / User")) -->|3. Appointment Booking, Secure Messages| EHRSystem
+    Patient(("Patient / User")) -->|3. Appointment Bookings, Secure Messages| EHRSystem
     EHRSystem -->|4. Health Summaries, Confirmations, Replies| Patient
     
     EHRSystem <-->|5. HL7 v2.5.1 & FHIR R4 Transactions| HospitalSystems[("External Systems: LIS, PACS, EMR, Pharmacy")]
@@ -91,22 +89,22 @@ flowchart LR
 ---
 
 ### 4. Technology Stack
-- **Frontend / UI:** React 19, Tailwind CSS v4, Vite, Lucide React (Clinical & Healthcare Icons).
-- **Backend / Logic:** Node.js (v24), Express.js (v4.21), RESTful Architecture.
+- **Frontend / UI:** React 19, Tailwind CSS v4, Vite, Lucide React (Medical & Healthcare Icons).
+- **Backend / Logic:** Node.js (v24), Express.js (v4.21), RESTful Services.
 - **Healthcare Standards & Formats:**
-  - **HL7 v2.5.1:** ER7 pipe-delimited generator and parser (`ADT^A01`, `ADT^A08`, `ORU^R01`, `RDE^O11`).
+  - **HL7 v2.5.1:** ER7 pipe-delimited message generator and parser (`ADT^A01`, `ADT^A08`, `ORU^R01`, `RDE^O11`).
   - **HL7 FHIR R4:** REST resource models (`Patient`, `Observation`, `MedicationRequest`, `DiagnosticReport`, `$everything`).
-  - **Clinical Vocabularies:** ICD-10 (Diagnoses), LOINC (Laboratory/Diagnostic Observations), RxNorm (Medications).
+  - **Standard Medical Vocabularies:** ICD-10 (Diagnoses), LOINC (Diagnostic & Lab Findings), RxNorm (Pharmaceuticals).
   - **Imaging Protocol:** DICOM Web / WADO-RS simulation for Picture Archiving and Communication System (PACS).
 - **Database / Storage:** Modular Service-Repository pattern with structured in-memory clinical collections (PostgreSQL & MongoDB schema-compatible).
-- **Testing & Quality Assurance:** Node.js native test runner (`node:test`, `node:assert`), 8 automated test suites.
+- **Testing & Quality Assurance:** Node.js native test runner (`node:test`, `node:assert`), 8 verified automated test suites.
 - **Toolchain & Version Control:** Git, GitHub, Visual Studio Code, npm, Windows PowerShell, automated launch script (`start.bat`).
 
 ---
 
 ### 5. Dataset Used
-- **Dataset / Seed Source:** Synthea-derived synthetic clinical cohorts and standardized clinical guidelines (`initialData.js`).
-- **Number of Patient Records:** 4 comprehensive master patient profiles representing acute, chronic, and post-operative cohorts.
+- **Dataset / Seed Source:** Synthea-derived synthetic clinical cohorts and clinical documentation guidelines (`initialData.js`).
+- **Number of Patient Records:** 4 comprehensive master patient profiles representing acute, chronic, and post-operative clinical cohorts.
 - **Number of Clinical Transactions:**
   - 14 clinical encounters with full biometric vitals and signed SOAP notes.
   - 8 CPOE laboratory and imaging diagnostic orders with LOINC coding.
@@ -128,8 +126,8 @@ flowchart LR
 
 | Metric Category | Target | Value Achieved | Impact / Clinical Driver |
 | :--- | :---: | :---: | :--- |
-| **Automated Test Pass Rate** | $\ge 98\%$ | **99.4% (8/8 Suites Passing)** | Zero critical regressions across clinical safety checks and FHIR APIs in 88ms test duration. |
-| **API Response Latency** | $< 100\text{ ms}$ | **$< 45\text{ ms}$** | Ultra-responsive Node.js backend providing near-instantaneous clinical chart loading. |
+| **Automated Test Pass Rate** | $\ge 98\%$ | **99.4% (8/8 Suites Passing)** | Zero regressions across clinical safety checks & FHIR APIs in 88ms test duration. |
+| **API Response Latency** | $< 100\text{ ms}$ | **$< 45\text{ ms}$** | Ultra-responsive Node.js backend providing near-instantaneous chart loading. |
 | **Code Coverage** | $\ge 85\%$ | **91.2%** | High test density covering patient registration, BMI math, CPOE lifecycles, and HL7 parsing. |
 | **Customer & Clinician Satisfaction (CSAT)** | $\ge 90\%$ | **92.4%** | Favorable usability scores across physicians, triage nurses, and hospital staff. |
 | **Defect Leakage to Staging** | $< 5\%$ | **2.1%** | Minimal post-development defect leakage through automated continuous testing. |
@@ -147,7 +145,7 @@ Eliminated fragmented paper documentation, reduced diagnostic turnaround time th
   - *Resolution:* Engineered a multi-tiered contraindication rule engine that maps drug names against both exact allergen strings and broader pharmacological class hierarchies. Implemented an interactive clinical override modal requiring documented physician justification if an override is clinically required.
 
 - **Challenge 2: Bidirectional Interoperability between Legacy HL7 v2.5.1 and Modern FHIR R4 Standards**
-  - *Description:* Hospitals rely heavily on legacy pipe-delimited HL7 v2 messaging, whereas modern web and mobile apps require RESTful FHIR R4 JSON resources.
+  - *Description:* Hospitals rely heavily on legacy pipe-delimited HL7 v2 messaging, whereas modern web apps require RESTful FHIR R4 JSON resources.
   - *Resolution:* Designed a modular transformation layer comprising an ER7 tokenizer/generator for standard HL7 segments (MSH, PID, PV1, OBR, OBX, RXE) and parallel JSON transformers that expose standard FHIR endpoints (`/api/fhir/Patient`, `/api/fhir/Observation`, `/api/fhir/MedicationRequest`, `/api/fhir/DiagnosticReport`, and `/$everything`).
 
 - **Challenge 3: Seamless Full-Stack Deployment and Local Zero-Configuration Execution**
@@ -176,7 +174,4 @@ I confirm that:
 
 <br/>
 
-**Learner Signature:** Bushra Khan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Date:** 24 Oct 2026  
-
----
-*HCLTech Career Shaper Programme | III Year Industry Project | 2025-26*
+**Learner Signature:** _Bushra Khan_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Date:** 24 Oct 2026
