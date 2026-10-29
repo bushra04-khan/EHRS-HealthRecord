@@ -51,10 +51,10 @@ export default function AgileDashboardView() {
                 {projectSummary.domain}
               </span>
               <span className="bg-emerald-500/20 text-emerald-400 text-xs px-2.5 py-0.5 rounded-full border border-emerald-500/30">
-                Managed: EdTech
+                ABES Engineering College
               </span>
-              <span className="text-slate-400 text-xs">
-                PM: <strong>Gaurav Kumar</strong>
+              <span className="text-slate-300 text-xs">
+                Developer: <strong>Bushra Khan (2300320150021)</strong> • Mentor: <strong>Dr. Anamika Goel</strong> • Date: 24 Oct 2026
               </span>
             </div>
 

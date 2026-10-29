@@ -139,11 +139,13 @@ function MainApp() {
             </div>
           </div>
           <div className="flex flex-wrap items-center gap-3 text-2xs text-slate-500">
-            <span>Terminal: <strong className="text-slate-800">{currentUser?.name}</strong> ({currentUser?.roleLabel})</span>
+            <span>Developer: <strong className="text-slate-800">Bushra Khan</strong> (Roll No. 2300320150021)</span>
             <span>•</span>
-            <span>Status: <strong className="text-emerald-600">{currentUser?.status || 'Active'}</strong></span>
+            <span>Mentor: <strong className="text-teal-700">Dr. Anamika Goel</strong></span>
             <span>•</span>
-            <span className="font-semibold text-teal-700">EdTech Managed Project</span>
+            <span>College: <strong className="text-slate-800">ABES Engineering College</strong></span>
+            <span>•</span>
+            <span className="text-slate-500">Date: 24 Oct 2026</span>
           </div>
         </div>
       </footer>

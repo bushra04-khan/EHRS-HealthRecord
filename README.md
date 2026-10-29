@@ -1,7 +1,8 @@
 # AuraHealth EHR (EHRS01 v2.0)
 > **Next-Gen Electronic Health Record System & Patient Portal**  
-> **Domain:** Healthcare and Pharma | **Interoperability:** HL7 v2.5.1 ER7 & HL7 FHIR Release 4 (R4)  
-> **Managed by:** EdTech | **Project Manager:** Gaurav Kumar | **Architecture:** React 19 + Node.js / Express
+> **Student / Learner:** Bushra Khan | **Roll No.:** 2300320150021 | **College:** ABES Engineering College  
+> **Mentor:** Dr. Anamika Goel | **Date:** 24 Oct 2026 | **GitHub Repo:** [https://github.com/bushra04-khan/EHRS-HealthRecord](https://github.com/bushra04-khan/EHRS-HealthRecord)  
+> **Domain:** Healthcare and Pharma | **Interoperability:** HL7 v2.5.1 ER7 & HL7 FHIR Release 4 (R4) | **Architecture:** React 19 + Node.js / Express
 
 ---
 

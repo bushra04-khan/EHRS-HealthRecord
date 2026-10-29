@@ -12,6 +12,6 @@
     "test": "cd server && npm test"
   },
   "keywords": ["ehr", "emr", "healthcare", "fhir", "hl7", "react", "nodejs"],
-  "author": "Antigravity Engineering",
+  "author": "Bushra Khan (Roll No. 2300320150021) - ABES Engineering College",
   "license": "ISC"
 }

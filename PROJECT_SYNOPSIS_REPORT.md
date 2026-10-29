@@ -6,15 +6,17 @@
 | Field | Details (Learner to complete) |
 | :--- | :--- |
 | **Project Title** | Electronic Health Record System with Real-Time Interoperability & Patient Portal (EHRS01) |
+| **Project No.** | 69 |
 | **Domain** | Healthcare and Pharma / Full Stack Web Development |
-| **GitHub Repository** | [https://github.com/sangal-vanshi21/EHRS-health-record](https://github.com/sangal-vanshi21/EHRS-health-record) |
+| **Difficulty** | Intermediate |
 | **Duration** | 4 Weeks (20 Sprints Agile Scope) |
 | **Format** | Individual Project |
-| **Learner Name** | [FILL IN: Your Full Name] |
-| **Roll Number** | [FILL IN: Your University Roll Number] |
-| **College / Campus** | [FILL IN: Your College / Campus Name] |
-| **Mentor Name** | Gaurav Kumar (Project Manager / Mentor) |
-| **Submission Date** | [FILL IN: Submission Date] |
+| **Learner Name** | Bushra Khan |
+| **Roll Number** | 2300320150021 |
+| **College / Campus** | ABES Engineering College |
+| **Mentor Name** | Dr. Anamika Goel |
+| **Submission Date** | 24 Oct 2026 |
+| **GitHub Repository** | [https://github.com/bushra04-khan/EHRS-HealthRecord](https://github.com/bushra04-khan/EHRS-HealthRecord) |
 
 ---
 
@@ -160,7 +162,7 @@ Eliminated fragmented paper documentation, reduced diagnostic turnaround time th
 3. **National Electrical Manufacturers Association (NEMA):** *Digital Imaging and Communications in Medicine (DICOM) PS3 Standard & WADO-RS Services*, Available: [https://www.dicomstandard.org/](https://www.dicomstandard.org/)
 4. **U.S. National Library of Medicine:** *Unified Medical Language System (UMLS), RxNorm, and LOINC Standards*, NIH Health Informatics.
 5. **React Documentation & Engineering Best Practices:** *React 19 Architecture and Component Design Patterns*, Meta Open Source.
-6. **Project Source Code Repository:** *Electronic Health Record System (EHRS01)*, GitHub: [https://github.com/sangal-vanshi21/EHRS-health-record](https://github.com/sangal-vanshi21/EHRS-health-record)
+6. **Project Source Code Repository:** *Electronic Health Record System (EHRS01)*, GitHub: [https://github.com/bushra04-khan/EHRS-HealthRecord](https://github.com/bushra04-khan/EHRS-HealthRecord)
 
 ---
 
@@ -174,7 +176,7 @@ I confirm that:
 
 <br/>
 
-**Learner Signature:** _________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Date:** ________________  
+**Learner Signature:** Bushra Khan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Date:** 24 Oct 2026  
 
 ---
 *HCLTech Career Shaper Programme | III Year Industry Project | 2025-26*
