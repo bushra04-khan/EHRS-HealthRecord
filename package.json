@@ -1,0 +1,17 @@
+{
+  "name": "ehrs01-electronic-health-record-system",
+  "version": "1.0.0",
+  "description": "Comprehensive Electronic Health Record System (EHRS01) - Healthcare & Pharma Agile Project",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "dev": "node --watch server/src/index.js",
+    "start:server": "node server/src/index.js",
+    "dev:server": "node --watch server/src/index.js",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "test": "cd server && npm test"
+  },
+  "keywords": ["ehr", "emr", "healthcare", "fhir", "hl7", "react", "nodejs"],
+  "author": "Antigravity Engineering",
+  "license": "ISC"
+}
